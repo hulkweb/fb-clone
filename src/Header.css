@@ -1,0 +1,102 @@
+.header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 10px -6px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+.header__left{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header__left{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header__left .MuiAvatar{
+height: 60px;
+}
+.header__left>form{
+   
+    padding: 10px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 40px;
+    height: 29px;
+    margin-left: 10px;
+    display: flex;
+}
+.header__left>form>svg{
+ height: 27px;
+}
+.header__left>form>input{
+    border: none !important; 
+ 
+    background-color: rgb(240, 248, 255);
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.header__left>form>button{
+    display: none;
+}
+.header__center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    padding: 5px 20px;
+    height: fit-content;
+}
+.header__center>.header__option{
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: grey;
+     
+}
+.header__center>.header__option:nth-child(1){
+    border-bottom: 5px solid blue;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: blue;
+}
+.header__center>.header__option:hover{
+    
+    background-color: rgb(230, 235, 240);
+    
+}
+
+.header__right{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header__right>.header__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+}
+.header__right>.header__info>h4{
+    margin: 6px 10px;
+}
+.header__right>.header__right__option>button{
+    background-color: rgb(230, 235, 240);
+    margin: auto 5px;
+}
+@media(max-width:580px){
+    .header__right>.header__right__option{
+        display: none;
+    }
+}

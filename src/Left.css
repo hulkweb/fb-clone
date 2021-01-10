@@ -1,0 +1,44 @@
+.left{
+    flex: 0.4;
+    height: auto;
+    margin-top: 100px;
+    padding: 10px;
+    position: fixed;
+    overflow: auto;
+    height: auto;
+    right: 0;
+}
+
+@media (max-width:536px){
+    .left{
+        display: none;
+    } 
+}
+.left>h2{
+    font-weight: 500;
+    color: grey;
+    font-size: 19px;
+}
+.left>.sponsered_Items{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.left>.sponsered_Items>.sponsered_Item{
+    display: flex;
+    flex-direction: row;
+}
+.sponsered_Item>img{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 100px;
+    
+}
+.sponsered_Item>h3{
+    font-weight: 500;
+    color: rgb(12, 11, 11);
+    font-size: 17px;
+    padding: 10px;
+    overflow: hidden;
+}

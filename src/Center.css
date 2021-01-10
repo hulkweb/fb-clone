@@ -1,0 +1,14 @@
+.Center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    overflow: scroll;
+    margin-top: 100px;
+}
+@media (max-width:536px){
+    .Center{
+       
+        margin-top: 300px;
+    }
+}
